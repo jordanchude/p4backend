@@ -29,10 +29,11 @@ My final project is a movie database called 'Cinefavorites'. Users will be able 
 
 ## Time/Priority Matrix 
 
-- TBD
+- [MVP](https://res.cloudinary.com/dpjdvsigb/image/upload/v1600049665/project-4-assets/backend-mvp_tdx4ae.jpg)
+- [Post MVP](https://res.cloudinary.com/dpjdvsigb/image/upload/v1600049665/project-4-assets/backend-post-mvp_zgrhcu.jpg)
 
 ### MVP/PostMVP
-#### MVP (examples)
+#### MVP
 
 - Create and Login with JWT User Authentication
 - Create, Read, Update, and Delete Movies
@@ -60,7 +61,7 @@ My final project is a movie database called 'Cinefavorites'. Users will be able 
 | H | Authentication Views | H | 4hr | -hr |
 | I | Authentication URLs | H | 1hr | -hr |
 | J | API Testing and Debugging | H | 4hr | -hr |
-| J | Authentication Testing and Debugging | H | 4hr | -hr |
+| K | Authentication Testing and Debugging | H | 4hr | -hr |
 | - | Total | - | 29hr | -hr |
 
 
