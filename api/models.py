@@ -7,7 +7,7 @@ class Movie(models.Model):
     image = models.URLField(max_length=200)
     title = models.CharField(max_length=40)
     description = models.CharField(max_length=200)
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, default=1)
 
     class Meta:
         verbose_name_plural = 'movies'
