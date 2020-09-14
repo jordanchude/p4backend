@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Project Link
-- [Link](https://telefavorites.netlify.app/#/)
+- [Link](https://cinefavorites.netlify.app/#/)
 
 ## Project Schedule
 
