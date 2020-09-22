@@ -87,9 +87,22 @@ My final project is a movie database called 'Cinefavorites'. Users will be able 
 - [whitenoise (5.2.0)](http://whitenoise.evans.io/en/stable/)
 
 ## Code Snippet
+- The simple but necessary code to activate the core of my app: creating movies for my database.
 
+```
+def create(self, request, *args, **kwargs):
+        movie = Movie.objects.filter(
+            title=request.data.get('title'),
+            user=request.user
+        )
+
+        if movie:
+            msg = 'Movie with that title already exists'
+            raise ValidationError(msg)
+        return super().create(request)
+```
 
 ## Issues and Resolutions
 **ERROR**: ```<title>ProgrammingError at /auth/users/register/</title>``` in Postman
-                               
+
 **RESOLUTION**: The deployed database needed to be reset and migrations needed to be re-run.
